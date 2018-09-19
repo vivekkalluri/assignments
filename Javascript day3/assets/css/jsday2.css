@@ -1,0 +1,26 @@
+ul li {
+    list-style-type: none;
+    display:inline;
+    background-color: coral;
+}
+li ul li {
+     list-style-type: none;
+     display: inline;
+}
+li ul li{
+    display:none;
+}
+
+li ul li a:hover{
+    background-color: red;
+    display:block;
+    
+    
+}
+.link1{
+    position: relative;
+    display: block;
+    
+
+
+}

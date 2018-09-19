@@ -1,0 +1,34 @@
+<html>
+
+
+
+
+
+<script> 
+    var currentDate = new Date();
+    var day = currentDate.getDate();
+    var month = currentDate.getMonth()+1;
+    var year = currentDate.getFullYear();
+    document.write("Current Date: " + month + "-" + day + "-" + year);
+    document.write("Current Date: " + month + "/" + day + "/" + year);
+    document.write("Current Date: " +  day + "-" + month + "-" + year);
+  </script>
+    
+    <script>
+	function calculateage() {
+		var dd1 = document.getByElementById(“d1”).value;
+		var birthdate = new Date(dd1);
+		var curr = new Date();
+		var diff = curr – birthdate;
+		var age = Math.floor(diff / (1000*60*60*24*365.25);
+		document.getElementById(“demo”).innerHTML = age;
+}
+</script>
+    
+    
+    
+    
+    
+    
+    
+</html>
